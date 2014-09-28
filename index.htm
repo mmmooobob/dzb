@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>国庆祝福大字报</title>
+<meta name="keyword" content="微信,国庆祝福,大字报,微博,自定义">
+<meta name="description" content="国庆祝福大字报，微信场景应用，微应用，让朋友圈的朋友分享：祝大家国庆节快乐大字报祝福，超大红字白底大字微信朋友圈祝福。更可自定义输入昵称，企业名，品牌名。也可用在微博，贴吧，QQ兴趣部落。">
+<meta charset="utf-8">
+<meta name="apple-touch-fullscreen" content="YES">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="pragram" content="no-cache">
+<link rel="stylesheet" href="./include/main.css">
+<link rel="stylesheet" href="./include/idangerous.swiper.css">
+<script type="text/javascript" src="./include/offline.js"></script>
+<script type="text/javascript" src="./include/idangerous.swiper.min.js"></script>
+<!--移动端版本兼容 -->
+<script type="text/javascript">
+	
+	window.app=window.app?window.app:{};
+	window.app.activityId='544';
+	window.app.basePath='http://dazhibao.qiniudn.com/';
+
+	var jsVer = 9.222;
+	var phoneWidth = parseInt(window.screen.width);
+	var phoneScale = phoneWidth / 640;
+
+	var ua = navigator.userAgent;
+	if (/Android (\d+\.\d+)/.test(ua)) {
+		var version = parseFloat(RegExp.$1);
+		// andriod 2.3
+		if (version > 2.3) {
+			document.write('<meta name="viewport" content="width=640, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+			// andriod 2.3以上
+		} else {
+			document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+		}
+		// 其他系统
+	} else {
+		//document.write('<meta name="viewport" content="width=640, user-scalable=yes, target-densitydpi=device-dpi">');
+		document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />');
+	}
+	if(ua.indexOf("iPhone")>0){
+		document.write('<style>.responsive-2-by-jonah { width: 320px; height: 50px; }</style>');
+	}
+	else{
+		document.write('<style>.responsive-2-by-jonah { width: 640px; height: 90px; }</style>');
+	}
+</script>
+<!--移动端版本兼容 end -->
+</head>
+<body>
+	<div style="padding:0px;margin:0;display:none;"><img src='http://dazhibao.qiniudn.com/web_img.png'/></div>
+	<!--模版加载提示-->
+	<section class="u-alert">
+		<img src="./include/loading.gif">
+	</section>
+	<div class="u-mask" style="opacity:0.8"></div>
+	<!--模版加载提示 end-->
+
+	<!-- 声音控件 -->
+	<section class="u-audio css_voice" data-src="http://dazhibao.qiniudn.com/bgm_gq.mp3">
+		<p id="coffee_flow" class="btn_audio">
+			<strong class="txt_audio z-move z-hide">打开</strong>
+            <span class="css_sprite01 audio_open"></span>
+		</p>
+	</section>
+	<!-- 声音控件 end-->
+    
+	<!-- 箭头指示引导 -->
+	<section class="u-arrow f-hide">
+		<p class="css_sprite01"></p>
+	</section>
+	<!-- 箭头指示引导 end-->
+    
+
+	<!-- page页面内容 -->
+	<section class="p-ct">
+		<div class="translate-back">
+		
+		<div class="m-page m-bigTxt f-hide" data-page-type="bigTxt" data-statics="info_list" > 
+        <div class="page-con j-txtWrap lazy-finish" data-src="http://dazhibao.qiniudn.com/page1_bg.jpg" data-position="50% 50%" data-size="cover" style="background-image:url(http://dazhibao.qiniudn.com/page1_bg.jpg); background-size: cover; background-position: 50% 50%;" id="page1">
+         	<div id="page1_content1" style="opacity:0;position:absolute; background:url(http://dazhibao.qiniudn.com/page1_title_u2d.png);background-size: cover; background-position: 50% 50%;"></div>
+            <a href="http://megaemoji.com"><div id="page1_content2" style="opacity:0;position:absolute;background:url(http://dazhibao.qiniudn.com/page1_text_d2u.png);background-size: cover; background-position: 50% 50%;"></div></a>
+        </div>
+        </div>
+        
+		<div class="m-page m-bigTxt f-hide" data-page-type="bigTxt" data-statics="info_list" > <div class="page-con j-txtWrap lazy-finish" data-src="http://dazhibao.qiniudn.com/page2_bg.jpg" data-position="50% 50%" data-size="cover" style="background-image: url(http://dazhibao.qiniudn.com/page2_bg.jpg); background-size: cover; background-position: 50% 50%;">
+        	<div id="page2_content1" style="position:absolute;background:url(http://dazhibao.qiniudn.com/page2_text1_u2d.png); background-size: cover; background-position: 50% 50%;"></div>
+            <div style="position:absolute;" class="device">
+                <a class="arrow-left" href="#"></a> 
+                <a class="arrow-right" href="#"></a>
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/zhu.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/da.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jia.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/tu.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/kuai.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/le.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/kai.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/tu2.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/xin2.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/pei.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jia2.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/ren.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/bu.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jia3.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/ban.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/fang.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/chang.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jia4.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/shui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/lan.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jiu.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/qu.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/lv.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/xin.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/ping.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/tu2.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/an.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/shai.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/zi.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/pai.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/chi.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/he.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/wan2.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/wan.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/bing.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/tong.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/du.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/shen.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jing.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/da2.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/lan2.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qiu.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/ti.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/zu.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qiu.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/kan.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/dian.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/shi.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/wan.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/ipone.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/6.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/chi.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/da.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/can.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/kan.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/yue.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/bin.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/qu.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/gou.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/wu.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/qu.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/jiao.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/you.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/zhai.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/zai.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/jia.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/bu.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/du.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/che.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/xie.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/qing.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/shu.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/kan.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/zhi.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/bo.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/L.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/O.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/L2.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/hai.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/zei.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/wang.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/hao.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/sheng.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/yin.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul>
+                        <li><img src="http://dazhibao.qiniudn.com/guo.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/qin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jie.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/zui.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/jin.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/yao.jpg" width="100%" height="100%"/></li>
+                        <li><img src="http://dazhibao.qiniudn.com/new/mai.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/dao.jpg" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/new/piao.jpg" width="100%" height="100%"/></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        	<div id="page2_content2" style="position:absolute;background:url(http://dazhibao.qiniudn.com/page2_text2_d2u.png); background-size: cover; background-position: 50% 50%;"></div>
+            <!--广告-->
+            <div style="z-index:2;position:absolute; left:0px; bottom:0px;">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Responsive 2 by Jonah -->
+				<ins class="adsbygoogle responsive-2-by-jonah"
+					style="display:inline-block"
+					data-ad-client="ca-pub-1348065094678140"
+					data-ad-slot="5658166514"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+            </div>
+            <!--广告-->
+        </div>
+        </div>
+        
+        <div class="m-page m-bigTxt f-hide" data-page-type="bigTxt" data-statics="info_list" > <div class="page-con j-txtWrap lazy-finish" data-src="http://dazhibao.qiniudn.com/page2_bg.jpg" data-position="50% 50%" data-size="cover" style="background-image: url(http://dazhibao.qiniudn.com/page2_bg.jpg); background-size: cover; background-position: 50% 50%;">
+        	<div id="page3_content1" style="position:relative;background:url(http://dazhibao.qiniudn.com/page3_text_r2l.png);background-size: cover; background-position: 50% 50%;">
+            </div>
+            <div id="page3_content4" style="position:relative;background:url(http://dazhibao.qiniudn.com/page3_text_r2l_02.png);background-size: cover; background-position: 50% 50%;">
+            </div>
+            <div id="page3_content2" style="position:absolute;background:url(http://dazhibao.qiniudn.com/page3_img_fadein.jpg); background-size: cover; background-position: 50% 50%;">
+            </div>
+            <div id="page3_content3" style="z-index:2;position:absolute;background:url(http://dazhibao.qiniudn.com/page3_zoom_d2u.png);background-size: cover; background-position: 50% 50%;"> 
+            </div>
+        </div>
+        </div>
+        
+        <div class="m-page m-bigTxt f-hide" data-page-type="bigTxt" data-statics="info_list" > <div class="page-con j-txtWrap lazy-finish" data-src="http://dazhibao.qiniudn.com/page2_bg.jpg" data-position="50% 50%" data-size="cover" style="background-image: url(http://dazhibao.qiniudn.com/page2_bg.jpg); background-size: cover; background-position: 50% 50%;">
+            <div id="page4_content1" style="z-index:0;position:absolute;background:url(http://dazhibao.qiniudn.com/page4_title_l2r.png);background-size: cover; background-position: 50% 50%;"></div>
+            <div id="page4_content2" style="z-index:10000;position:absolute;background:url(http://dazhibao.qiniudn.com/page4_sharetext_d2u.png);background-size: cover; background-position: 50% 50%;"></div>
+            <div id="page4_content3" style="position:relative;background:url(http://dazhibao.qiniudn.com/page4_bottomtext1_l2r.png); background-size: cover; background-position: 50% 50%;"></div>
+            <div id="page4_content4" style="position:relative;background:url(http://dazhibao.qiniudn.com/page4_bottomtext2_r2l.png); background-size: cover; background-position: 50% 50%;"></div>
+            <div id="page4_content5" style="opacity:0;position:relative;background:url(http://dazhibao.qiniudn.com/page4_bottomtext3_d2u.png); background-size: cover; background-position: 50% 50%;"></div>
+            <!--广告-->
+            <div style="z-index:2;position:absolute; left:0px; bottom:0px;">
+            	<!-- Responsive 2 by Jonah -->
+				<ins class="adsbygoogle responsive-2-by-jonah"
+					style="display:inline-block"
+					data-ad-client="ca-pub-1348065094678140"
+					data-ad-slot="5658166514"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+            </div>
+            <!--广告-->
+        </div>
+        </div>
+        
+        <div class="m-page m-bigTxt f-hide" data-page-type="bigTxt" data-statics="info_list" > <div class="page-con j-txtWrap lazy-finish" data-src="http://dazhibao.qiniudn.com/page2_bg.jpg" data-position="50% 50%" data-size="cover" style="background-image: url(http://dazhibao.qiniudn.com/page2_bg.jpg); background-size: cover; background-position: 50% 50%;">
+            <div id="page5_content1" style="position:relative;background:url(http://dazhibao.qiniudn.com/page5_title_u2d.png); background-size: cover; background-position: 50% 50%;"></div>
+            <div style="position:relative;" align="center" id="page5_content3">
+            	<div id="challenger_div" style="display:inline;">
+                    <input type="text" value="" placeholder="输入企业、品牌、昵称" id="challenger" class="inputbox" maxlength="12"/>
+                </div>
+                <div style="padding:0px; margin:0px 0px 0px 12px;display:inline;">
+                    <a class="button" id="complete">生成大字报</a>
+                    <div style="clear:both"></div>
+                </div>
+            </div>
+            <div style="position:absolute;margin:0px auto;" id="diy_content">
+               	<ul>
+                <li id="diy_image1"><img src="http://dazhibao.qiniudn.com/1.jpg" width="100%" height="100%"/></li><li id="diy_image2"><img src="http://dazhibao.qiniudn.com/2.jpg" width="100%" height="100%"/></li><li id="diy_image3"><img src="http://dazhibao.qiniudn.com/3.jpg" width="100%" height="100%"/></li>
+                <li><img src="http://dazhibao.qiniudn.com/4.png" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/5.png" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/6.png" width="100%" height="100%"/></li>
+                <li><img src="http://dazhibao.qiniudn.com/7.png" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/8.png" width="100%" height="100%"/></li><li><img src="http://dazhibao.qiniudn.com/9.png" width="100%" height="100%"/></li>
+                </ul>
+            </div>
+            <div id="page5_content2" style="position:absolute;background:url(http://dazhibao.qiniudn.com/page5_text_d2u.png); background-size: cover; background-position: 50% 50%;"></div>
+            <!--广告-->
+            <div style="z-index:2;position:absolute; left:0px; bottom:0px;">
+            	<!-- Responsive 2 by Jonah -->
+				<ins class="adsbygoogle responsive-2-by-jonah"
+					style="display:inline-block"
+					data-ad-client="ca-pub-1348065094678140"
+					data-ad-slot="5658166514"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+            </div>
+            <!--广告-->
+        </div>
+        </div>
+        
+        <div class="m-page m-bigTxt f-hide" data-page-type="bigTxt" data-statics="info_list" > <div class="page-con j-txtWrap lazy-finish" data-src="http://dazhibao.qiniudn.com/page6_bg.jpg" data-position="50% 50%" data-size="cover" style="background-image: url(http://dazhibao.qiniudn.com/page6_bg.jpg); background-size: cover; background-position: 50% 50%;">
+            <a href="http://megaemoji.com/mobile/cn/?c=dzb"><div id="page6_content1" style="position:relative;background:url(http://dazhibao.qiniudn.com/page6_title_r2l.png); background-size: cover; background-position: 50% 50%;"></div>
+            <div id="page6_content2" style="position:relative;background:url(http://dazhibao.qiniudn.com/page6_wxh_r2l.png); background-size: cover; background-position: 50% 50%;"></div>
+            <div id="page6_content3" style="position:absolute;background:url(http://dazhibao.qiniudn.com/page6_qrcode_l2r.png); background-size: cover; background-position: 50% 50%;"></div></a>
+            
+            <a href="http://megaemoji.com/mmmooo_companyservice/?c=dzb"><div id="page6_content4" style="position:relative;background:url(http://dazhibao.qiniudn.com/page6_text1_l2r.png); background-size: cover; background-position: 50% 50%;"></div>
+            <div id="page6_content5" style="position:relative;background:url(http://dazhibao.qiniudn.com/page6_text2_r2l.png); background-size: cover; background-position: 50% 50%;"></div>
+            <div id="page6_content6" style="position:relative;background:url(http://dazhibao.qiniudn.com/page6_text3_l2r.png); background-size: cover; background-position: 50% 50%;"></div></a>
+            <a href="tel:02151693270"><div id="page6_content7" style="position:relative;background:url(http://dazhibao.qiniudn.com/page6_mmmooo_d2u.png); background-size: cover; background-position: 50% 50%;"></div></a>
+        </div>
+        </div>
+        
+		</div>
+	</section>
+	<!-- page页面内容  end-->
+
+	<!--脚本加载-->
+	<script type="text/javascript" src="./include/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./include/share.js"></script>
+	<script type="text/javascript" src="./include/url.js"></script>
+	<script type="text/javascript" src="./include/data2view.js"></script>
+	<script type="text/javascript">
+	//初始化页面元素
+	var globalData = ''
+	initEl(globalData);
+	</script>
+	<script type="text/javascript" src="./include/picker.js"></script>
+	<!--<script type="text/javascript" src="./include/picker.date.js"></script>
+	<script type="text/javascript" src="./include/picker.time.js"></script>	
+	<script type="text/javascript" src="./include/book.js"></script>-->
+	<script type="text/javascript" src="./include/fx.js"></script>
+	<script type="text/javascript" src="./include/loading.js"></script>
+	<script type="text/javascript" src="./include/global.js"></script>
+	<script type="text/javascript" src="./include/page.js"></script>
+	<script type="text/javascript" src="./include/sileFn.js"></script>
+	<script type="text/javascript" src="./include/slidepic.js"></script>
+	<script type="text/javascript" src="./include/ylMap.js"></script>
+	<script type="text/javascript" src="./include/ylMusic.js"></script>
+	<script type="text/javascript" src="./include/media_.js"></script>
+	<script type="text/javascript" src="./include/map.js"></script>
+	<!--<script type="text/javascript" src="./include/form.js"></script>-->
+	<script type="text/javascript" src="./include/event.js"></script>
+	<script type="text/javascript" src="./include/image.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			var xq = new Array("快乐", "开心", "陪家人", "不加班", "放长假", "睡懒觉", "去旅行", "平安", "晒自拍", "吃喝玩", "玩冰桶", "读圣经", "打篮球", "踢足球", "看电视", "玩iPhone6", "吃大餐", "看阅兵", "去购物", "去郊游", "宅在家", "不堵车", "写情书", "看直播", "LOL", "海贼王", "好声音", "买到票");
+			var rand_num = Math.ceil(Math.random()*28);
+			shareTitle = "我国庆节最紧要"+xq[rand_num]+"，你的国庆节最紧要什么？- 国庆大字报";
+			var mySwiper = new Swiper('.swiper-container',{
+				loop:true,
+				grabCursor: true,
+				paginationClickable: true,
+				onSlideChangeStart: function(swiper){
+				  var index = swiper.activeLoopIndex;
+				  shareTitle = "我国庆节最紧要"+xq[index]+"，你的国庆节最紧要什么？- 国庆大字报";
+				  document.title = shareTitle; 
+				}
+			  })
+			  $('.arrow-left').click(function(e){
+				e.preventDefault();
+				mySwiper.swipePrev();
+			  })
+			  $('.arrow-right').click(function(e){
+				e.preventDefault();
+				mySwiper.swipeNext();
+			  })
+		  
+			//初始化高度
+			$(".translate-back").height($(window).height());
+			$(".m-page").height($(window).height());
+			$(".m-page").width($(window).width());
+			
+			$(".page-con").height($(window).height() + 2);
+			$(".m-page").eq(0).removeClass('f-hide');
+			setTimeout(function() {
+				// 开启window的滚动
+				global._scrollStart();
+				// 开启页面切换
+				page.page_translate_type=1;
+				page.page_start();
+				//page._pageNow = 7;
+				// 箭头显示
+				$('.u-arrow').removeClass('f-hide');
+				loading.hide();
+				setTimeout(function() {	
+				  //$("#page1").removeClass("Animation_move_amplify");
+				  Page1_Animation(0)
+				  $("#page1_content2").removeClass("Animation1");
+				  $("#page1_content3").removeClass("Animation2");
+				  
+				  //$("#page1").addClass("Animation_move_amplify");
+				  Page1_Animation(1)
+				  $("#page1_content1").addClass("Animation1");
+				  $("#page1_content2").addClass("Animation2");
+				},1500);
+				
+				//var bgmuisc = document.getElementById('bgmuisc');
+				//if(bgmuisc){
+			    //bgmuisc.play();
+				//}
+			}, 5000);
+			
+			
+			function Page1_Animation(start){
+				var h = $(window).height();
+				var w = $(window).width();
+				if(start){
+					var new_h = h+50;
+					var new_w = w+(new_h/h)*50;
+					var left = (w - new_w)/2;
+					var top = (h - new_h)/2;
+					$("#page1").animate({width:new_w, height:new_h, left:left, top:top}, 2000, "ease");
+					if(phoneWidth==320){
+						$("#page1_content1").css("top", 462*phoneScale-top);
+						$("#page1_content1").css("left", 0-left);
+						$("#page1_content2").css("top", 814*phoneScale-top);
+						$("#page1_content2").css("left", 65*phoneScale-left);
+					}
+					else{
+						$("#page1_content1").css("top", 462-top);
+						$("#page1_content1").css("left", 0-left);
+						$("#page1_content2").css("top", 814-top);
+						$("#page1_content2").css("left", 65-left);
+					}
+				}
+				else{
+					$("#page1").animate({width:w, height:h, left:"0px", top:"0px"});
+					if(phoneWidth==320){
+						$("#page1_content1").css("top", 462*phoneScale);
+						$("#page1_content1").css("left", 0);
+						$("#page1_content2").css("top", 814*phoneScale);
+						$("#page1_content2").css("left", 65*phoneScale);
+					}
+					else{
+						$("#page1_content1").css("top", 462);
+						$("#page1_content1").css("left", 0);
+						$("#page1_content2").css("top", 814);
+						$("#page1_content2").css("left", 65);
+					}
+				}
+				
+			}
+			//前三张背景图片加载完成后执行回调
+			lazyImg.lazy_callback = function() {
+				loading.hide();
+			}
+			
+			function getByteLen(val){
+				var len = 0;
+				for (var i = 0; i < val.length; i++) {
+				   var length = val.charCodeAt(i);
+				   if(length>=0&&length<=128)
+					{
+						len += 1;
+					}
+					else
+					{
+						len += 2;
+					}
+				}
+				return len;
+			}
+			$("#challenger").bind("keydown", function() {
+				var value = $("#challenger").val();
+				var len = getByteLen(value);
+				if(len==12){
+					text = value;
+					$("#challenger").val(text);
+				}
+				else if(len>12){
+					$("#challenger").val(text);
+				}
+				else{
+					$("#challenger").val(value);
+				}
+			});
+			var create = 1;
+		    $("#complete").click(function() {
+				var a=$(".u-alert");
+				var b=$(".u-mask");
+				a.css("display","block");
+				b.css("display","block");
+				a.css("opacity","1");
+				b.css("opacity","0.8");
+				var value = $("#challenger").val();
+				if(!create){
+					alert("请不要重复点击！");
+				}
+				if(value){
+					create = 0;
+					var url = "include/diy/index.php?name="+value;
+					$.ajax({
+						type: "get",    
+						url: url,    
+						dataType: "text",  
+						success: function (data) {
+							if(data){
+								var msg = $.parseJSON(data);
+								$("#diy_image1").html('<img src="include/diy/images/'+msg.url_1+'" width="100%" height="100%"/>');
+								$("#diy_image2").html('<img src="include/diy/images/'+msg.url_2+'" width="100%" height="100%"/>');
+								$("#diy_image3").html('<img src="include/diy/images/'+msg.url_3+'" width="100%" height="100%"/>');
+								shareTitle = value+"祝大家国庆快乐！企业品牌个人定制国庆大字报祝福";
+				  				document.title = shareTitle;
+								loading.hide(); 
+							}
+							else{
+								alert("生成大字报失败？");
+							}
+							a.css("display","none");
+							b.css("display","none");
+							a.css("opacity","0");
+							b.css("opacity","0");
+							create = 1;
+						},    
+						error: function (XMLHttpRequest, textStatus, errorThrown){
+							a.css("display","none");
+							b.css("display","none");
+							a.css("opacity","0");
+							b.css("opacity","0");
+							create = 1;
+						}    
+					}); 
+				}
+				else{
+					a.css("display","none");
+					b.css("display","none");
+					a.css("opacity","0");
+					b.css("opacity","0");
+					alert("请输入内容？");
+				}
+			})
+		});
+		document.addEventListener("touchstart", function Open_BgMuisc() {
+	  		var bgmuisc = window.document.getElementById("bgmuisc");
+			bgmuisc.play();}, false);
+		/*Google统计*/
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] ||
+			function() {
+	
+				(i[r].q = i[r].q || []).push(arguments)
+			},
+			i[r].l = 1 * new Date();
+			a = s.createElement(o),
+	
+			m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+	
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+	
+		ga('create', 'UA-53212532-1', 'auto');
+	
+		ga('send', 'pageview');
+	</script>
+	<!--脚本加载 end-->
+    </body>
+</html>

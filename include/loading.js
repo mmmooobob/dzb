@@ -1,0 +1,1 @@
+var loading={show:function(){var b=$(".u-mask");var a=$(".u-alert");$(".u-alert").animate({opacity:1},400)},hide:function(){setTimeout(function(){var b=$(".u-mask");var a=$(".u-alert");a.animate({opacity:0},400);setTimeout(function(){b.animate({opacity:0},400)},600);setTimeout(function(){b.hide();a.hide()},1000)},300)}};
